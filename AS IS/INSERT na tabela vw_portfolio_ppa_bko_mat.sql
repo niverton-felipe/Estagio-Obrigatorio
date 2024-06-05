@@ -1,0 +1,4 @@
+TRUNCATE TABLE vw_portfolio_ppa_backoffice_mat
+
+INSERT INTO vw_portfolio_ppa_backoffice_mat
+SELECT * FROM vw_vba_portfolio_ppa_backoffice
